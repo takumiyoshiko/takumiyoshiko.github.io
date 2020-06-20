@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="side">
+        <aside>
+            <nav>
+                <ul>
+                  <script>
+                    function ScrollWindow(elem) {
+                    var element = document.getElementById(elem);
+                    var rect = element.getBoundingClientRect();
+                    var elemtop = rect.top + window.pageYOffset - 80;
+                    document.documentElement.scrollTop = elemtop;
+                    }
+                    </script>
+                    <div class="icon">  
+                        <img src="img/IMG_2732.jpeg" width="100" height="100" alt="profile image">
+                    </div>
+                        
+                    <li><input type="button" value="Basic Information" onclick="ScrollWindow('Basic Information');"></li>
+                    <li><input type="button" value="Education" onclick="ScrollWindow('Education');"></li>
+                    <li><input type="button" value="Experience" onclick="ScrollWindow('Experience');"></li>
+                    <li><input type="button" value="Skills" onclick="ScrollWindow('Skills');"></li>
+                    <li><input type="button" value="Hobbies" onclick="ScrollWindow('Hobbies');"></li>
+                </ul>
+            </nav>
+        </aside>
+      </div>
+        <main>
+          <header>
+            <h1>プロフィール</h1>
+          </header>
+          <div id="Basic Information">
+            <h2>Basic Information</h2>
+            <section>
+              <ol style="list-style-type: square">
+                <li>名前: 吉越卓見</li>
+                <li>出身: 千葉県</li>
+                <li>職業: 大学院生</li>
+              </ol>
+            </section>
+          </div>
+              <div id="Education">
+              <h2>Education</h2>
+              <section>
+                <ol style="list-style-type: square">
+                  <li>2020年4月~ 京都大学大学院 情報学研究科 知能情報専攻 黒橋研究室</li>
+                  <li>2015年4月 - 2020年3月 京都大学 工学部 電気電子工学科</li>
+                  <li>2012年4月 - 2015年3月 千葉県立船橋高等学校 理数科</li>
+                  <li>2009年4月 - 2012年3月 松戸市立常盤平中学校</li>
+                </ol>
+              </section>
+            </div>
+          
+            <div id="Experience">
+            <h2>Experience</h2>      
+            <section>
+              <b>
+                小学校
+              </b>
+              <ol style="list-style-type: square">
+                <li>小学1年生のとき囲碁クラブに入会</li>
+                <li>小学2年生のときサッカーを始める</li>
+                <li>水泳、体操を習う</li>
+              </ol>
+            </section>
+            <section>
+              <b>
+                中学校
+              </b>
+              <ol style="list-style-type: square">
+                <li>サッカー部に所属</li>
+                <li>市の大会で優勝、千葉県ベスト32</li>
+                <li>数検2級、漢検準2級</li>
+              </ol>
+              <section>
+                <b>
+                  高校
+                </b>
+                <ol style="list-style-type: square">
+                  <li>サッカー部に所属</li>
+                  <li>千葉県ベスト16</li>
+                  <li>数学が得意で理数科に所属</li>
+                  <li>高3の10月末まで部活をしながら京都大学に現役合格</li>
+                </ol>
+            </section>
+            <section>
+              <b>
+                大学
+              </b>
+              <ol style="list-style-type: square">
+                <li>アメフト部に入部</li>
+                <li>体重が66kgから103kgに(1.5倍以上)</li>
+                <li>3回生時関西3位</li>
+                <li>4回生時はポジションリーダー</li>
+                <li>現役引退後、学生コーチとして1年間後輩を指導</li>
+              </ol>
+            </section>
+            <section>
+            <b>
+              大学院
+            </b>
+            <ol style="list-style-type: square">
+              <li>自然言語処理分野の研究</li>
+              <li>対話システムの構築に関する研究</li>
+            </ol>
+            </section>
+          </div>
+            <div id="Skills">
+              <h2>Skills</h2>
+                <ol style="list-style-type: square">
+                  <li>Pythonを用いた基礎的なプログラミングのスキル</li>
+                  <li>TensorFlowやPyTorchなどのフレームワークを用いた機械学習モデルの実装</li>
+                  <li>Linuxなどの基礎的なコマンドラインの操作</li>
+                  <li>プログラミング授業のTA(C言語)</li>
+                  <li>SwiftによるiOSアプリの作成</li>
+                  <li>動画編集</li>
+                </ol>
+              </div> 
+            <div id="Hobbies">
+              <h2>Hobbies</h2>
+                <ol style="list-style-type: square">
+                  <li>ポーカー</li>
+                  <li>YouTube観賞</li>
+                  <li>プログラミング</li>
+                </ol>
+              </div> 
+           
+              <footer>
+                <div class="box">
+                  <div class="inner">
+                    <div class="content">
+                      <ul class="top-banner">
+                        <li><a href="https://www.facebook.com/takumi.yoshikoshi.31"><img src="img/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://github.com/takumiyoshiko"><img src="img/GitHub-Mark-120px-plus.png" alt="Github"></a></li>                        
+                        </ul>                       
+                        <p class="title">Kyoto University, Takumi Yoshikoshi</p>
+                        <p class="text">
+                          takumiyoshiko@nlp.ist.i.kyoto-u.ac.jp
+                        </p>
+                    </div><!--content-->
+                  </div><!--inner-->
+                </div><!--box-->
+            </footer>
+        </main>
+    </body>
+
+    
+
+</html>
