@@ -20,11 +20,8 @@ aside {
   flex-direction: column;
   font-size: 1rem;
 }
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
+
 div {
   margin-top: auto;
   height: flex;
